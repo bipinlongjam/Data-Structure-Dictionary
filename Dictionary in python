@@ -1,0 +1,6 @@
+_find = input("Enter the word")
+_file = open("list.txt")
+ 
+for word in _file:
+  if _find in word:
+    print(word)
